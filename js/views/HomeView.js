@@ -117,7 +117,7 @@ class HomeView {
 
       <!-- Footer -->
       <footer class="app-footer">
-        <p>EngDaily — Học Tiếng Anh Mỗi Ngày 💙</p>
+        <p>Thien — Học Tiếng Anh Mỗi Ngày 💙</p>
       </footer>
     `;
 
