@@ -20,6 +20,8 @@ class LessonView {
     this.onBack = null;
     this.onSectionComplete = null;
     this.onLessonComplete = null;
+
+    this._initGlobalEvents();
   }
 
   render(lesson, progress, audioManager) {
@@ -98,7 +100,7 @@ class LessonView {
     `;
 
     this.container.innerHTML = html;
-    this._bindEvents();
+    this._bindSectionEvents();
   }
 
   _renderCurrentSection() {
@@ -367,46 +369,55 @@ class LessonView {
   }
 
   // ==================== EVENT BINDING ====================
-  _bindEvents() {
+  _initGlobalEvents() {
     const container = this.container;
-
-    // Back button
-    container.querySelector('#btnBack')?.addEventListener('click', () => {
-      if (this.onBack) this.onBack();
-    });
-
-    // Section tabs
-    container.querySelectorAll('.section-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        const idx = parseInt(tab.dataset.section);
-        this._switchSection(idx);
-      });
-    });
-
-    // Previous / Next buttons
-    container.querySelector('#btnPrev')?.addEventListener('click', () => {
-      if (this.currentSection > 0) this._switchSection(this.currentSection - 1);
-    });
-
-    container.querySelector('#btnNext')?.addEventListener('click', () => {
-      if (this.currentSection < this.sections.length - 1) {
-        this._switchSection(this.currentSection + 1);
-      } else {
-        this._handleLessonFinish();
-      }
-    });
 
     // Delegate all interactive events
     container.addEventListener('click', (e) => {
-      const target = e.target.closest('[data-text]');
-      if (target) {
-        if (target.classList.contains('btn-listen-slow')) {
-          this._handleSpeak(target.dataset.text, 0.6);
-          target.closest('.listening-item')?.classList.add('playing');
-        } else if (target.classList.contains('btn-speak') || target.classList.contains('btn-listen') || target.classList.contains('vocab-speak')) {
-          this._handleSpeak(target.dataset.text);
-          target.closest('.listening-item')?.classList.add('playing');
+      // Back button
+      const backBtn = e.target.closest('#btnBack');
+      if (backBtn && this.onBack) {
+        this.onBack();
+        return;
+      }
+
+      // Section tabs
+      const tab = e.target.closest('.section-tab');
+      if (tab) {
+        const idx = parseInt(tab.dataset.section);
+        this._switchSection(idx);
+        return;
+      }
+
+      // Previous button
+      const prevBtn = e.target.closest('#btnPrev');
+      if (prevBtn && !prevBtn.disabled) {
+        if (this.currentSection > 0) this._switchSection(this.currentSection - 1);
+        return;
+      }
+
+      // Next button
+      const nextBtn = e.target.closest('#btnNext');
+      if (nextBtn) {
+        if (this.currentSection < this.sections.length - 1) {
+          this._switchSection(this.currentSection + 1);
+        } else {
+          this._handleLessonFinish();
         }
+        return;
+      }
+
+      // Audio buttons
+      const audioTarget = e.target.closest('[data-text]');
+      if (audioTarget) {
+        if (audioTarget.classList.contains('btn-listen-slow')) {
+          this._handleSpeak(audioTarget.dataset.text, 0.6);
+          audioTarget.closest('.listening-item')?.classList.add('playing');
+        } else if (audioTarget.classList.contains('btn-speak') || audioTarget.classList.contains('btn-listen') || audioTarget.classList.contains('vocab-speak')) {
+          this._handleSpeak(audioTarget.dataset.text);
+          audioTarget.closest('.listening-item')?.classList.add('playing');
+        }
+        // Don't return here, we might also want to flip if it's a vocab-card
       }
 
       // Vocab card flip
@@ -414,6 +425,7 @@ class LessonView {
       if (vocabCard && !e.target.closest('.btn-speak')) {
         vocabCard.classList.toggle('flipped');
         this.audioManager?.playClick();
+        return;
       }
 
       // Complete section
@@ -421,12 +433,14 @@ class LessonView {
       if (completeBtn) {
         const section = completeBtn.dataset.section;
         this._handleSectionComplete(section);
+        return;
       }
 
       // Check writing
       const checkBtn = e.target.closest('.btn-check-writing');
       if (checkBtn) {
         this._handleWritingCheck(checkBtn.dataset.id);
+        return;
       }
 
       // Quiz option
@@ -436,6 +450,7 @@ class LessonView {
           parseInt(quizOpt.dataset.quizIndex),
           parseInt(quizOpt.dataset.optionIndex)
         );
+        return;
       }
 
       // Quiz next
@@ -443,16 +458,8 @@ class LessonView {
       if (quizNext) {
         const nextIdx = parseInt(quizNext.dataset.next);
         this._handleQuizNext(nextIdx);
+        return;
       }
-    });
-
-    // Writing input enter key
-    container.querySelectorAll('.writing-input').forEach(input => {
-      input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-          this._handleWritingCheck(input.dataset.id);
-        }
-      });
     });
   }
 

@@ -189,13 +189,19 @@
 }
 .vocab-card.flipped .vocab-card-inner { transform: rotateY(180deg); }
 .vocab-card-front, .vocab-card-back {
-  position: absolute; inset: 0; backface-visibility: hidden;
+  position: absolute; inset: 0;
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   padding: 20px; border-radius: var(--radius-lg); gap: 8px;
   background: var(--bg-glass); backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
 }
-.vocab-card-back { transform: rotateY(180deg); background: var(--bg-card); }
+.vocab-card-front { z-index: 2; transform: rotateY(0deg); }
+.vocab-card-back { transform: rotateY(180deg); background: var(--bg-card); z-index: 1; }
+.vocab-card.flipped .vocab-card-front { z-index: 1; }
+.vocab-card.flipped .vocab-card-back { z-index: 2; }
 .vocab-word { font-size: 1.5rem; font-weight: 800; }
 .vocab-phonetic { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
 .vocab-speak { font-size: 1.2rem; }
