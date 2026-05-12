@@ -16,8 +16,8 @@
         "formula": "S + V(s/es)",
         "examples": [
           {
-            "en": "I play soccer.",
-            "vi": "Tôi chơi bóng đá."
+            "en": "A teacher works at a school.",
+            "vi": "Một giáo viên làm việc tại trường học."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + do/does + not + V",
         "examples": [
           {
-            "en": "I don't play soccer.",
-            "vi": "Tôi không chơi bóng đá."
+            "en": "He doesn't work on weekends.",
+            "vi": "Anh ấy không làm việc vào cuối tuần."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v5_1",
-      "word": "Word_5_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_5_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Teacher",
+      "phonetic": "/ˈtiː.tʃɚ/",
+      "meaning": "Giáo viên",
+      "example": "She is a teacher.",
+      "exampleVi": "Cô ấy là giáo viên."
     },
     {
       "id": "v5_2",
-      "word": "Word_5_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_5_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Doctor",
+      "phonetic": "/ˈdɑːk.tɚ/",
+      "meaning": "Bác sĩ",
+      "example": "He is a doctor.",
+      "exampleVi": "Anh ấy là bác sĩ."
     }
   ],
   "listening": [
     {
       "id": "l5_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I am a teacher.",
+      "sentenceVi": "Tôi là giáo viên."
     },
     {
       "id": "l5_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "He works in a hospital.",
+      "sentenceVi": "Anh ấy làm việc ở bệnh viện."
     }
   ],
   "speaking": [
     {
       "id": "s5_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What do you do?",
+      "sentenceVi": "Bạn làm nghề gì?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w5_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "She is a _____.",
+      "answer": "teacher",
+      "hint": "giáo viên"
     }
   ],
   "quizzes": [
     {
       "id": "q5_1",
-      "question": "Từ vựng 'Word_5_1' nghĩa là gì?",
+      "question": "'Doctor' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Bác sĩ",
+        "Giáo viên",
+        "Kỹ sư",
+        "Công nhân"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "What do you do?",
+      "textVi": "Bạn làm nghề gì?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I am a teacher.",
+      "textVi": "Tôi là giáo viên."
     }
   ]
 }

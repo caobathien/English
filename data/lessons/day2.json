@@ -16,8 +16,8 @@
         "formula": "S + V(s/es)",
         "examples": [
           {
-            "en": "I play soccer.",
-            "vi": "Tôi chơi bóng đá."
+            "en": "My brother works in a bank.",
+            "vi": "Anh trai tôi làm việc ở ngân hàng."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + do/does + not + V",
         "examples": [
           {
-            "en": "I don't play soccer.",
-            "vi": "Tôi không chơi bóng đá."
+            "en": "She doesn't have any sisters.",
+            "vi": "Cô ấy không có chị em gái."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v2_1",
-      "word": "Word_2_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_2_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Family",
+      "phonetic": "/ˈfæm.əl.i/",
+      "meaning": "Gia đình",
+      "example": "I love my family.",
+      "exampleVi": "Tôi yêu gia đình của tôi."
     },
     {
       "id": "v2_2",
-      "word": "Word_2_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_2_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Friend",
+      "phonetic": "/frend/",
+      "meaning": "Bạn bè",
+      "example": "She is my best friend.",
+      "exampleVi": "Cô ấy là bạn thân của tôi."
     }
   ],
   "listening": [
     {
       "id": "l2_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I have a big family.",
+      "sentenceVi": "Tôi có một gia đình lớn."
     },
     {
       "id": "l2_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "This is my friend, Alex.",
+      "sentenceVi": "Đây là bạn của tôi, Alex."
     }
   ],
   "speaking": [
     {
       "id": "s2_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "How many people are there in your family?",
+      "sentenceVi": "Có bao nhiêu người trong gia đình bạn?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w2_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "She is my best _____.",
+      "answer": "friend",
+      "hint": "bạn bè"
     }
   ],
   "quizzes": [
     {
       "id": "q2_1",
-      "question": "Từ vựng 'Word_2_1' nghĩa là gì?",
+      "question": "Từ vựng 'Family' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Gia đình",
+        "Bạn bè",
+        "Trường học",
+        "Công việc"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Do you have a big family?",
+      "textVi": "Bạn có một gia đình lớn không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Yes, I live with my parents and brother.",
+      "textVi": "Vâng, tôi sống với bố mẹ và anh trai."
     }
   ]
 }

@@ -16,8 +16,8 @@
         "formula": "S + am/is/are + V-ing",
         "examples": [
           {
-            "en": "I am studying.",
-            "vi": "Tôi đang học."
+            "en": "I am feeling better now.",
+            "vi": "Bây giờ tôi đang cảm thấy tốt hơn."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + am/is/are + not + V-ing",
         "examples": [
           {
-            "en": "She is not sleeping.",
-            "vi": "Cô ấy không đang ngủ."
+            "en": "She is not sleeping well.",
+            "vi": "Cô ấy đang ngủ không ngon giấc."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v12_1",
-      "word": "Word_12_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_12_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Head",
+      "phonetic": "/hed/",
+      "meaning": "Đầu",
+      "example": "I have a headache.",
+      "exampleVi": "Tôi bị đau đầu."
     },
     {
       "id": "v12_2",
-      "word": "Word_12_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_12_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Hand",
+      "phonetic": "/hænd/",
+      "meaning": "Tay",
+      "example": "Wash your hands.",
+      "exampleVi": "Hãy rửa tay."
     }
   ],
   "listening": [
     {
       "id": "l12_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I have a headache.",
+      "sentenceVi": "Tôi bị đau đầu."
     },
     {
       "id": "l12_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "She is going to the doctor.",
+      "sentenceVi": "Cô ấy đang đi khám bác sĩ."
     }
   ],
   "speaking": [
     {
       "id": "s12_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What is wrong with you?",
+      "sentenceVi": "Bạn bị sao vậy?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w12_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I have a _____.",
+      "answer": "headache",
+      "hint": "đau đầu"
     }
   ],
   "quizzes": [
     {
       "id": "q12_1",
-      "question": "Từ vựng 'Word_12_1' nghĩa là gì?",
+      "question": "'Hand' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Tay",
+        "Chân",
+        "Đầu",
+        "Mắt"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Are you feeling okay?",
+      "textVi": "Bạn có ổn không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "No, I have a headache.",
+      "textVi": "Không, tôi bị đau đầu."
     }
   ]
 }

@@ -16,8 +16,8 @@
         "formula": "S + V2/ed",
         "examples": [
           {
-            "en": "I went to school.",
-            "vi": "Tôi đã đi học."
+            "en": "I cleaned the house.",
+            "vi": "Tôi đã dọn dẹp nhà cửa."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + did not + V",
         "examples": [
           {
-            "en": "He didn't go out.",
-            "vi": "Anh ấy đã không đi chơi."
+            "en": "He didn't paint the walls.",
+            "vi": "Anh ấy đã không sơn tường."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v18_1",
-      "word": "Word_18_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_18_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "House",
+      "phonetic": "/haʊs/",
+      "meaning": "Ngôi nhà",
+      "example": "This is my house.",
+      "exampleVi": "Đây là nhà của tôi."
     },
     {
       "id": "v18_2",
-      "word": "Word_18_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_18_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Chair",
+      "phonetic": "/tʃer/",
+      "meaning": "Cái ghế",
+      "example": "Sit on the chair.",
+      "exampleVi": "Hãy ngồi lên ghế."
     }
   ],
   "listening": [
     {
       "id": "l18_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I cleaned my house yesterday.",
+      "sentenceVi": "Hôm qua tôi đã dọn nhà."
     },
     {
       "id": "l18_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "He moved the chair.",
+      "sentenceVi": "Anh ấy đã di chuyển cái ghế."
     }
   ],
   "speaking": [
     {
       "id": "s18_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "How many rooms does your house have?",
+      "sentenceVi": "Nhà bạn có bao nhiêu phòng?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w18_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "This is my _____.",
+      "answer": "house",
+      "hint": "ngôi nhà"
     }
   ],
   "quizzes": [
     {
       "id": "q18_1",
-      "question": "Từ vựng 'Word_18_1' nghĩa là gì?",
+      "question": "'Chair' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Cái ghế",
+        "Cái bàn",
+        "Cái giường",
+        "Cái tủ"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Where do you live?",
+      "textVi": "Bạn sống ở đâu?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I live in a small house.",
+      "textVi": "Tôi sống trong một ngôi nhà nhỏ."
     }
   ]
 }

@@ -16,8 +16,8 @@
         "formula": "S + will + V",
         "examples": [
           {
-            "en": "I will help you.",
-            "vi": "Tôi sẽ giúp bạn."
+            "en": "I will become a doctor.",
+            "vi": "Tôi sẽ trở thành bác sĩ."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + will not (won't) + V",
         "examples": [
           {
-            "en": "I won't do it.",
-            "vi": "Tôi sẽ không làm điều đó."
+            "en": "She won't give up.",
+            "vi": "Cô ấy sẽ không bỏ cuộc."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v27_1",
-      "word": "Word_27_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_27_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Dream",
+      "phonetic": "/driːm/",
+      "meaning": "Ước mơ",
+      "example": "My dream is to travel.",
+      "exampleVi": "Ước mơ của tôi là đi du lịch."
     },
     {
       "id": "v27_2",
-      "word": "Word_27_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_27_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Goal",
+      "phonetic": "/ɡoʊl/",
+      "meaning": "Mục tiêu",
+      "example": "I will reach my goal.",
+      "exampleVi": "Tôi sẽ đạt được mục tiêu."
     }
   ],
   "listening": [
     {
       "id": "l27_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I will follow my dream.",
+      "sentenceVi": "Tôi sẽ theo đuổi ước mơ."
     },
     {
       "id": "l27_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "She will achieve her goals.",
+      "sentenceVi": "Cô ấy sẽ đạt được mục tiêu."
     }
   ],
   "speaking": [
     {
       "id": "s27_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What is your dream?",
+      "sentenceVi": "Ước mơ của bạn là gì?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w27_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "My _____ is to travel the world.",
+      "answer": "dream",
+      "hint": "ước mơ"
     }
   ],
   "quizzes": [
     {
       "id": "q27_1",
-      "question": "Từ vựng 'Word_27_1' nghĩa là gì?",
+      "question": "'Goal' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Mục tiêu",
+        "Ước mơ",
+        "Kế hoạch",
+        "Sở thích"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "What is your dream?",
+      "textVi": "Ước mơ của bạn là gì?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I will be a doctor.",
+      "textVi": "Tôi sẽ làm bác sĩ."
     }
   ]
 }

@@ -16,8 +16,8 @@
         "formula": "S + will + V",
         "examples": [
           {
-            "en": "I will help you.",
-            "vi": "Tôi sẽ giúp bạn."
+            "en": "He will post a new photo.",
+            "vi": "Anh ấy sẽ đăng một bức ảnh mới."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + will not (won't) + V",
         "examples": [
           {
-            "en": "I won't do it.",
-            "vi": "Tôi sẽ không làm điều đó."
+            "en": "They won't share the video.",
+            "vi": "Họ sẽ không chia sẻ video đó."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v26_1",
-      "word": "Word_26_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_26_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Share",
+      "phonetic": "/ʃer/",
+      "meaning": "Chia sẻ",
+      "example": "I will share this photo.",
+      "exampleVi": "Tôi sẽ chia sẻ bức ảnh này."
     },
     {
       "id": "v26_2",
-      "word": "Word_26_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_26_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Message",
+      "phonetic": "/ˈmes.ɪdʒ/",
+      "meaning": "Tin nhắn",
+      "example": "Send me a message.",
+      "exampleVi": "Gửi tin nhắn cho tôi."
     }
   ],
   "listening": [
     {
       "id": "l26_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I will share a photo online.",
+      "sentenceVi": "Tôi sẽ chia sẻ ảnh trên mạng."
     },
     {
       "id": "l26_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "She will send me a message.",
+      "sentenceVi": "Cô ấy sẽ gửi tin nhắn cho tôi."
     }
   ],
   "speaking": [
     {
       "id": "s26_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "Do you use social media?",
+      "sentenceVi": "Bạn có dùng mạng xã hội không?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w26_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "Send me a _____.",
+      "answer": "message",
+      "hint": "tin nhắn"
     }
   ],
   "quizzes": [
     {
       "id": "q26_1",
-      "question": "Từ vựng 'Word_26_1' nghĩa là gì?",
+      "question": "'Share' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Chia sẻ",
+        "Xóa",
+        "Tải về",
+        "Đăng ký"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Will you share this photo?",
+      "textVi": "Bạn có chia sẻ ảnh này không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Yes, I will share it now.",
+      "textVi": "Có, tôi sẽ chia sẻ ngay."
     }
   ]
 }

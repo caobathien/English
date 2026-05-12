@@ -16,8 +16,8 @@
         "formula": "S + V2/ed",
         "examples": [
           {
-            "en": "I went to school.",
-            "vi": "Tôi đã đi học."
+            "en": "We took a taxi.",
+            "vi": "Chúng tôi đã đi taxi."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + did not + V",
         "examples": [
           {
-            "en": "He didn't go out.",
-            "vi": "Anh ấy đã không đi chơi."
+            "en": "They didn't miss the bus.",
+            "vi": "Họ đã không lỡ chuyến xe buýt."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v20_1",
-      "word": "Word_20_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_20_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Bus",
+      "phonetic": "/bʌs/",
+      "meaning": "Xe buýt",
+      "example": "I take the bus.",
+      "exampleVi": "Tôi đi xe buýt."
     },
     {
       "id": "v20_2",
-      "word": "Word_20_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_20_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Bike",
+      "phonetic": "/baɪk/",
+      "meaning": "Xe đạp",
+      "example": "He rides a bike.",
+      "exampleVi": "Anh ấy đi xe đạp."
     }
   ],
   "listening": [
     {
       "id": "l20_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I took the bus to work yesterday.",
+      "sentenceVi": "Hôm qua tôi đã đi xe buýt đi làm."
     },
     {
       "id": "l20_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "She rode her bike to school.",
+      "sentenceVi": "Cô ấy đã đạp xe đến trường."
     }
   ],
   "speaking": [
     {
       "id": "s20_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "How do you go to work?",
+      "sentenceVi": "Bạn đi làm bằng gì?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w20_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I take the _____ to work.",
+      "answer": "bus",
+      "hint": "xe buýt"
     }
   ],
   "quizzes": [
     {
       "id": "q20_1",
-      "question": "Từ vựng 'Word_20_1' nghĩa là gì?",
+      "question": "'Bike' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Xe đạp",
+        "Xe buýt",
+        "Ô tô",
+        "Tàu"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "How do you go to school?",
+      "textVi": "Bạn đi học bằng gì?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I ride my bike.",
+      "textVi": "Tôi đi xe đạp."
     }
   ]
 }

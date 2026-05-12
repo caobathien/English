@@ -16,8 +16,8 @@
         "formula": "S + V2/ed",
         "examples": [
           {
-            "en": "I went to school.",
-            "vi": "Tôi đã đi học."
+            "en": "She wore a beautiful hat.",
+            "vi": "Cô ấy đã đội một chiếc mũ đẹp."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + did not + V",
         "examples": [
           {
-            "en": "He didn't go out.",
-            "vi": "Anh ấy đã không đi chơi."
+            "en": "I didn't buy those shoes.",
+            "vi": "Tôi đã không mua đôi giày đó."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v19_1",
-      "word": "Word_19_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_19_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Shirt",
+      "phonetic": "/ʃɝːt/",
+      "meaning": "Áo sơ mi",
+      "example": "I wear a white shirt.",
+      "exampleVi": "Tôi mặc áo sơ mi trắng."
     },
     {
       "id": "v19_2",
-      "word": "Word_19_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_19_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Shoes",
+      "phonetic": "/ʃuːz/",
+      "meaning": "Giày",
+      "example": "These shoes are new.",
+      "exampleVi": "Đôi giày này mới."
     }
   ],
   "listening": [
     {
       "id": "l19_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I wore a new shirt yesterday.",
+      "sentenceVi": "Hôm qua tôi đã mặc áo mới."
     },
     {
       "id": "l19_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "She bought new shoes.",
+      "sentenceVi": "Cô ấy đã mua giày mới."
     }
   ],
   "speaking": [
     {
       "id": "s19_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What are you wearing today?",
+      "sentenceVi": "Hôm nay bạn mặc gì?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w19_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I wear a white _____.",
+      "answer": "shirt",
+      "hint": "áo sơ mi"
     }
   ],
   "quizzes": [
     {
       "id": "q19_1",
-      "question": "Từ vựng 'Word_19_1' nghĩa là gì?",
+      "question": "'Shoes' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Giày",
+        "Áo",
+        "Quần",
+        "Mũ"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "I like your shirt!",
+      "textVi": "Tôi thích áo bạn!"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Thank you, I bought it yesterday.",
+      "textVi": "Cảm ơn, tôi mua nó hôm qua."
     }
   ]
 }

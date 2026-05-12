@@ -26,38 +26,38 @@
   "vocabulary": [
     {
       "id": "v29_1",
-      "word": "Word_29_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_29_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Practice",
+      "phonetic": "/ˈpræk.tɪs/",
+      "meaning": "Luyện tập",
+      "example": "I practice every day.",
+      "exampleVi": "Tôi luyện tập mỗi ngày."
     },
     {
       "id": "v29_2",
-      "word": "Word_29_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_29_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Remember",
+      "phonetic": "/rɪˈmem.bɚ/",
+      "meaning": "Nhớ",
+      "example": "Do you remember?",
+      "exampleVi": "Bạn có nhớ không?"
     }
   ],
   "listening": [
     {
       "id": "l29_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I practice English every day.",
+      "sentenceVi": "Tôi luyện tiếng Anh mỗi ngày."
     },
     {
       "id": "l29_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "Do you remember this word?",
+      "sentenceVi": "Bạn có nhớ từ này không?"
     }
   ],
   "speaking": [
     {
       "id": "s29_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What did you learn this month?",
+      "sentenceVi": "Tháng này bạn đã học được gì?"
     }
   ],
   "writing": [
@@ -65,20 +65,20 @@
       "id": "w29_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I _____ English every day.",
+      "answer": "practice",
+      "hint": "luyện tập"
     }
   ],
   "quizzes": [
     {
       "id": "q29_1",
-      "question": "Từ vựng 'Word_29_1' nghĩa là gì?",
+      "question": "'Remember' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Nhớ",
+        "Quên",
+        "Học",
+        "Đọc"
       ],
       "correct": 0
     }
@@ -86,13 +86,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Do you practice English every day?",
+      "textVi": "Bạn có luyện tiếng Anh mỗi ngày không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Yes, I do!",
+      "textVi": "Có chứ!"
     }
   ]
 }

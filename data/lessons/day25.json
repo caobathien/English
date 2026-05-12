@@ -16,8 +16,8 @@
         "formula": "S + will + V",
         "examples": [
           {
-            "en": "I will help you.",
-            "vi": "Tôi sẽ giúp bạn."
+            "en": "We will order pizza.",
+            "vi": "Chúng tôi sẽ gọi bánh pizza."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + will not (won't) + V",
         "examples": [
           {
-            "en": "I won't do it.",
-            "vi": "Tôi sẽ không làm điều đó."
+            "en": "I won't eat dessert.",
+            "vi": "Tôi sẽ không ăn món tráng miệng."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v25_1",
-      "word": "Word_25_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_25_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Menu",
+      "phonetic": "/ˈmen.juː/",
+      "meaning": "Thực đơn",
+      "example": "Can I see the menu?",
+      "exampleVi": "Cho tôi xem thực đơn?"
     },
     {
       "id": "v25_2",
-      "word": "Word_25_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_25_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Order",
+      "phonetic": "/ˈɔːr.dɚ/",
+      "meaning": "Gọi món",
+      "example": "I will order chicken.",
+      "exampleVi": "Tôi sẽ gọi gà."
     }
   ],
   "listening": [
     {
       "id": "l25_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "Can I see the menu, please?",
+      "sentenceVi": "Cho tôi xem thực đơn được không?"
     },
     {
       "id": "l25_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "I will order a coffee.",
+      "sentenceVi": "Tôi sẽ gọi một ly cà phê."
     }
   ],
   "speaking": [
     {
       "id": "s25_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What would you like to order?",
+      "sentenceVi": "Bạn muốn gọi món gì?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w25_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "Can I see the _____?",
+      "answer": "menu",
+      "hint": "thực đơn"
     }
   ],
   "quizzes": [
     {
       "id": "q25_1",
-      "question": "Từ vựng 'Word_25_1' nghĩa là gì?",
+      "question": "'Order' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Gọi món",
+        "Nấu ăn",
+        "Trả tiền",
+        "Ăn"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "What would you like to order?",
+      "textVi": "Bạn muốn gọi gì?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I will have a coffee, please.",
+      "textVi": "Cho tôi một ly cà phê."
     }
   ]
 }

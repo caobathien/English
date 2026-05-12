@@ -16,8 +16,8 @@
         "formula": "S + V(s/es)",
         "examples": [
           {
-            "en": "I play soccer.",
-            "vi": "Tôi chơi bóng đá."
+            "en": "I come from Vietnam.",
+            "vi": "Tôi đến từ Việt Nam."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + do/does + not + V",
         "examples": [
           {
-            "en": "I don't play soccer.",
-            "vi": "Tôi không chơi bóng đá."
+            "en": "I don't live in London.",
+            "vi": "Tôi không sống ở Luân Đôn."
           }
         ]
       }
@@ -35,7 +35,7 @@
   },
   "vocabulary": [
     {
-      "id": "v1",
+      "id": "v1_1",
       "word": "Hello",
       "phonetic": "/həˈloʊ/",
       "meaning": "Xin chào",
@@ -43,7 +43,7 @@
       "exampleVi": "Xin chào, bạn khỏe không?"
     },
     {
-      "id": "v2",
+      "id": "v1_2",
       "word": "Goodbye",
       "phonetic": "/ɡʊdˈbaɪ/",
       "meaning": "Tạm biệt",
@@ -54,20 +54,20 @@
   "listening": [
     {
       "id": "l1_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "Hello, my name is Anna.",
+      "sentenceVi": "Xin chào, tên tôi là Anna."
     },
     {
       "id": "l1_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "Nice to meet you!",
+      "sentenceVi": "Rất vui được gặp bạn!"
     }
   ],
   "speaking": [
     {
       "id": "s1_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "Hello! What is your name?",
+      "sentenceVi": "Xin chào! Tên bạn là gì?"
     }
   ],
   "writing": [
@@ -75,15 +75,15 @@
       "id": "w1_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "_____, my name is Tom.",
+      "answer": "Hello",
+      "hint": "Lời chào"
     }
   ],
   "quizzes": [
     {
-      "id": "q1",
-      "question": "\"Hello\" nghĩa là gì?",
+      "id": "q1_1",
+      "question": "'Hello' nghĩa là gì?",
       "options": [
         "Xin chào",
         "Tạm biệt",
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Hello! What is your name?",
+      "textVi": "Xin chào! Tên bạn là gì?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Hi! My name is Lan. Nice to meet you!",
+      "textVi": "Chào! Tên tôi là Lan. Rất vui được gặp bạn!"
     }
   ]
 }

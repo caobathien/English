@@ -26,38 +26,38 @@
   "vocabulary": [
     {
       "id": "v30_1",
-      "word": "Word_30_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_30_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Improve",
+      "phonetic": "/ɪmˈpruːv/",
+      "meaning": "Cải thiện",
+      "example": "I want to improve my English.",
+      "exampleVi": "Tôi muốn cải thiện tiếng Anh."
     },
     {
       "id": "v30_2",
-      "word": "Word_30_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_30_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Confident",
+      "phonetic": "/ˈkɑːn.fə.dənt/",
+      "meaning": "Tự tin",
+      "example": "I feel more confident now.",
+      "exampleVi": "Bây giờ tôi cảm thấy tự tin hơn."
     }
   ],
   "listening": [
     {
       "id": "l30_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I will improve my English.",
+      "sentenceVi": "Tôi sẽ cải thiện tiếng Anh."
     },
     {
       "id": "l30_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "I feel more confident now.",
+      "sentenceVi": "Bây giờ tôi tự tin hơn."
     }
   ],
   "speaking": [
     {
       "id": "s30_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "How has your English improved?",
+      "sentenceVi": "Tiếng Anh của bạn đã cải thiện thế nào?"
     }
   ],
   "writing": [
@@ -65,20 +65,20 @@
       "id": "w30_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I want to _____ my English.",
+      "answer": "improve",
+      "hint": "cải thiện"
     }
   ],
   "quizzes": [
     {
       "id": "q30_1",
-      "question": "Từ vựng 'Word_30_1' nghĩa là gì?",
+      "question": "'Confident' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Tự tin",
+        "Sợ hãi",
+        "Buồn",
+        "Lo lắng"
       ],
       "correct": 0
     }
@@ -86,13 +86,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Do you feel confident speaking English?",
+      "textVi": "Bạn có tự tin nói tiếng Anh không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Yes, I improved a lot!",
+      "textVi": "Có, tôi đã cải thiện nhiều lắm!"
     }
   ]
 }

@@ -16,8 +16,8 @@
         "formula": "S + V(s/es)",
         "examples": [
           {
-            "en": "I play soccer.",
-            "vi": "Tôi chơi bóng đá."
+            "en": "The store opens at 9 AM.",
+            "vi": "Cửa hàng mở cửa lúc 9 giờ sáng."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + do/does + not + V",
         "examples": [
           {
-            "en": "I don't play soccer.",
-            "vi": "Tôi không chơi bóng đá."
+            "en": "They don't sell shoes here.",
+            "vi": "Họ không bán giày ở đây."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v7_1",
-      "word": "Word_7_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_7_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Buy",
+      "phonetic": "/baɪ/",
+      "meaning": "Mua",
+      "example": "I buy a shirt.",
+      "exampleVi": "Tôi mua một cái áo."
     },
     {
       "id": "v7_2",
-      "word": "Word_7_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_7_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Price",
+      "phonetic": "/praɪs/",
+      "meaning": "Giá cả",
+      "example": "The price is good.",
+      "exampleVi": "Giá tốt."
     }
   ],
   "listening": [
     {
       "id": "l7_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I want to buy a book.",
+      "sentenceVi": "Tôi muốn mua một cuốn sách."
     },
     {
       "id": "l7_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "How much is this?",
+      "sentenceVi": "Cái này bao nhiêu tiền?"
     }
   ],
   "speaking": [
     {
       "id": "s7_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "How much is it?",
+      "sentenceVi": "Nó bao nhiêu tiền?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w7_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "How _____ is it?",
+      "answer": "much",
+      "hint": "bao nhiêu"
     }
   ],
   "quizzes": [
     {
       "id": "q7_1",
-      "question": "Từ vựng 'Word_7_1' nghĩa là gì?",
+      "question": "'Buy' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Mua",
+        "Bán",
+        "Trả tiền",
+        "Hỏi giá"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "How much is this shirt?",
+      "textVi": "Cái áo này bao nhiêu tiền?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "It is 20 dollars.",
+      "textVi": "Nó giá 20 đô la."
     }
   ]
 }

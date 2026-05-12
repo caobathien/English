@@ -16,8 +16,8 @@
         "formula": "S + V2/ed",
         "examples": [
           {
-            "en": "I went to school.",
-            "vi": "Tôi đã đi học."
+            "en": "I felt very happy.",
+            "vi": "Tôi đã cảm thấy rất vui."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + did not + V",
         "examples": [
           {
-            "en": "He didn't go out.",
-            "vi": "Anh ấy đã không đi chơi."
+            "en": "She didn't cry.",
+            "vi": "Cô ấy đã không khóc."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v21_1",
-      "word": "Word_21_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_21_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Happy",
+      "phonetic": "/ˈhæp.i/",
+      "meaning": "Vui vẻ",
+      "example": "I am happy today.",
+      "exampleVi": "Hôm nay tôi vui."
     },
     {
       "id": "v21_2",
-      "word": "Word_21_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_21_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Sad",
+      "phonetic": "/sæd/",
+      "meaning": "Buồn",
+      "example": "She felt sad.",
+      "exampleVi": "Cô ấy cảm thấy buồn."
     }
   ],
   "listening": [
     {
       "id": "l21_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I was very happy yesterday.",
+      "sentenceVi": "Hôm qua tôi rất vui."
     },
     {
       "id": "l21_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "He felt sad after the movie.",
+      "sentenceVi": "Anh ấy buồn sau khi xem phim."
     }
   ],
   "speaking": [
     {
       "id": "s21_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "How do you feel today?",
+      "sentenceVi": "Hôm nay bạn cảm thấy thế nào?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w21_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I am _____ today.",
+      "answer": "happy",
+      "hint": "vui vẻ"
     }
   ],
   "quizzes": [
     {
       "id": "q21_1",
-      "question": "Từ vựng 'Word_21_1' nghĩa là gì?",
+      "question": "'Sad' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Buồn",
+        "Vui",
+        "Giận",
+        "Sợ"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "How do you feel today?",
+      "textVi": "Hôm nay bạn cảm thấy thế nào?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I feel happy!",
+      "textVi": "Tôi cảm thấy vui!"
     }
   ]
 }

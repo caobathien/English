@@ -16,8 +16,8 @@
         "formula": "S + will + V",
         "examples": [
           {
-            "en": "I will help you.",
-            "vi": "Tôi sẽ giúp bạn."
+            "en": "I will move to a big city.",
+            "vi": "Tôi sẽ chuyển đến một thành phố lớn."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + will not (won't) + V",
         "examples": [
           {
-            "en": "I won't do it.",
-            "vi": "Tôi sẽ không làm điều đó."
+            "en": "He won't take the subway.",
+            "vi": "Anh ấy sẽ không đi tàu điện ngầm."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v22_1",
-      "word": "Word_22_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_22_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Park",
+      "phonetic": "/pɑːrk/",
+      "meaning": "Công viên",
+      "example": "I will go to the park.",
+      "exampleVi": "Tôi sẽ đi công viên."
     },
     {
       "id": "v22_2",
-      "word": "Word_22_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_22_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Building",
+      "phonetic": "/ˈbɪl.dɪŋ/",
+      "meaning": "Tòa nhà",
+      "example": "That building is tall.",
+      "exampleVi": "Tòa nhà đó cao."
     }
   ],
   "listening": [
     {
       "id": "l22_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I will visit the park tomorrow.",
+      "sentenceVi": "Ngày mai tôi sẽ đến công viên."
     },
     {
       "id": "l22_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "There are many buildings in the city.",
+      "sentenceVi": "Có nhiều tòa nhà trong thành phố."
     }
   ],
   "speaking": [
     {
       "id": "s22_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "Do you like living in the city?",
+      "sentenceVi": "Bạn có thích sống ở thành phố không?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w22_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I will go to the _____.",
+      "answer": "park",
+      "hint": "công viên"
     }
   ],
   "quizzes": [
     {
       "id": "q22_1",
-      "question": "Từ vựng 'Word_22_1' nghĩa là gì?",
+      "question": "'Building' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Tòa nhà",
+        "Công viên",
+        "Cây cầu",
+        "Con đường"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Will you go to the park tomorrow?",
+      "textVi": "Ngày mai bạn có đi công viên không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Yes, I will go in the morning.",
+      "textVi": "Có, tôi sẽ đi vào buổi sáng."
     }
   ]
 }

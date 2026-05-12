@@ -16,8 +16,8 @@
         "formula": "S + am/is/are + V-ing",
         "examples": [
           {
-            "en": "I am studying.",
-            "vi": "Tôi đang học."
+            "en": "We are traveling to Paris.",
+            "vi": "Chúng tôi đang đi du lịch đến Paris."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + am/is/are + not + V-ing",
         "examples": [
           {
-            "en": "She is not sleeping.",
-            "vi": "Cô ấy không đang ngủ."
+            "en": "I am not staying in a hotel.",
+            "vi": "Tôi không đang ở khách sạn."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v10_1",
-      "word": "Word_10_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_10_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Travel",
+      "phonetic": "/ˈtræv.əl/",
+      "meaning": "Du lịch",
+      "example": "I like to travel.",
+      "exampleVi": "Tôi thích đi du lịch."
     },
     {
       "id": "v10_2",
-      "word": "Word_10_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_10_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Beach",
+      "phonetic": "/biːtʃ/",
+      "meaning": "Bãi biển",
+      "example": "We go to the beach.",
+      "exampleVi": "Chúng tôi đi đến bãi biển."
     }
   ],
   "listening": [
     {
       "id": "l10_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I want to travel the world.",
+      "sentenceVi": "Tôi muốn đi du lịch vòng quanh thế giới."
     },
     {
       "id": "l10_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "They are going to the beach.",
+      "sentenceVi": "Họ đang đi đến bãi biển."
     }
   ],
   "speaking": [
     {
       "id": "s10_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "Where did you go on holiday?",
+      "sentenceVi": "Bạn đã đi đâu vào kỳ nghỉ?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w10_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "We go to the _____.",
+      "answer": "beach",
+      "hint": "bãi biển"
     }
   ],
   "quizzes": [
     {
       "id": "q10_1",
-      "question": "Từ vựng 'Word_10_1' nghĩa là gì?",
+      "question": "'Travel' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Du lịch",
+        "Làm việc",
+        "Nghỉ ngơi",
+        "Học tập"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Where are you going for your holiday?",
+      "textVi": "Bạn định đi đâu cho kỳ nghỉ?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I am going to the beach.",
+      "textVi": "Tôi định đi đến bãi biển."
     }
   ]
 }

@@ -16,8 +16,8 @@
         "formula": "S + V(s/es)",
         "examples": [
           {
-            "en": "I play soccer.",
-            "vi": "Tôi chơi bóng đá."
+            "en": "She drinks coffee in the morning.",
+            "vi": "Cô ấy uống cà phê vào buổi sáng."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + do/does + not + V",
         "examples": [
           {
-            "en": "I don't play soccer.",
-            "vi": "Tôi không chơi bóng đá."
+            "en": "I don't eat spicy food.",
+            "vi": "Tôi không ăn thức ăn cay."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v6_1",
-      "word": "Word_6_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_6_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Apple",
+      "phonetic": "/ˈæp.əl/",
+      "meaning": "Quả táo",
+      "example": "I eat an apple.",
+      "exampleVi": "Tôi ăn một quả táo."
     },
     {
       "id": "v6_2",
-      "word": "Word_6_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_6_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Water",
+      "phonetic": "/ˈwɑː.t̬ɚ/",
+      "meaning": "Nước",
+      "example": "I drink water.",
+      "exampleVi": "Tôi uống nước."
     }
   ],
   "listening": [
     {
       "id": "l6_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I like eating apples.",
+      "sentenceVi": "Tôi thích ăn táo."
     },
     {
       "id": "l6_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "She drinks coffee.",
+      "sentenceVi": "Cô ấy uống cà phê."
     }
   ],
   "speaking": [
     {
       "id": "s6_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What is your favorite food?",
+      "sentenceVi": "Món ăn yêu thích của bạn là gì?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w6_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "I drink _____.",
+      "answer": "water",
+      "hint": "nước"
     }
   ],
   "quizzes": [
     {
       "id": "q6_1",
-      "question": "Từ vựng 'Word_6_1' nghĩa là gì?",
+      "question": "'Water' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Nước",
+        "Sữa",
+        "Cà phê",
+        "Trà"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "What is your favorite food?",
+      "textVi": "Món ăn yêu thích của bạn là gì?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "I love pizza.",
+      "textVi": "Tôi thích bánh pizza."
     }
   ]
 }

@@ -16,8 +16,8 @@
         "formula": "S + am/is/are + V-ing",
         "examples": [
           {
-            "en": "I am studying.",
-            "vi": "Tôi đang học."
+            "en": "I am listening to a great song.",
+            "vi": "Tôi đang nghe một bài hát tuyệt vời."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + am/is/are + not + V-ing",
         "examples": [
           {
-            "en": "She is not sleeping.",
-            "vi": "Cô ấy không đang ngủ."
+            "en": "We are not watching a horror movie.",
+            "vi": "Chúng tôi không đang xem phim kinh dị."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v14_1",
-      "word": "Word_14_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_14_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Music",
+      "phonetic": "/ˈmjuː.zɪk/",
+      "meaning": "Âm nhạc",
+      "example": "I listen to music.",
+      "exampleVi": "Tôi nghe nhạc."
     },
     {
       "id": "v14_2",
-      "word": "Word_14_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_14_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Movie",
+      "phonetic": "/ˈmuː.vi/",
+      "meaning": "Phim",
+      "example": "Let's watch a movie.",
+      "exampleVi": "Hãy xem phim đi."
     }
   ],
   "listening": [
     {
       "id": "l14_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I listen to music every day.",
+      "sentenceVi": "Tôi nghe nhạc mỗi ngày."
     },
     {
       "id": "l14_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "This movie is interesting.",
+      "sentenceVi": "Bộ phim này thú vị."
     }
   ],
   "speaking": [
     {
       "id": "s14_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "What kind of music do you like?",
+      "sentenceVi": "Bạn thích thể loại nhạc nào?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w14_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "Let's watch a _____.",
+      "answer": "movie",
+      "hint": "phim"
     }
   ],
   "quizzes": [
     {
       "id": "q14_1",
-      "question": "Từ vựng 'Word_14_1' nghĩa là gì?",
+      "question": "'Music' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Âm nhạc",
+        "Phim",
+        "Sách",
+        "Trò chơi"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Do you want to watch a movie?",
+      "textVi": "Bạn có muốn xem phim không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Yes, I love action movies.",
+      "textVi": "Có, tôi thích phim hành động."
     }
   ]
 }

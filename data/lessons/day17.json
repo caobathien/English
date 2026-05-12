@@ -16,8 +16,8 @@
         "formula": "S + V2/ed",
         "examples": [
           {
-            "en": "I went to school.",
-            "vi": "Tôi đã đi học."
+            "en": "We saw a lion at the zoo.",
+            "vi": "Chúng tôi đã thấy một con sư tử ở sở thú."
           }
         ]
       },
@@ -26,8 +26,8 @@
         "formula": "S + did not + V",
         "examples": [
           {
-            "en": "He didn't go out.",
-            "vi": "Anh ấy đã không đi chơi."
+            "en": "The cat didn't catch the mouse.",
+            "vi": "Con mèo đã không bắt được con chuột."
           }
         ]
       }
@@ -36,38 +36,38 @@
   "vocabulary": [
     {
       "id": "v17_1",
-      "word": "Word_17_1",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 1",
-      "example": "This is an example for Word_17_1.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 1."
+      "word": "Dog",
+      "phonetic": "/dɑːɡ/",
+      "meaning": "Con chó",
+      "example": "I have a dog.",
+      "exampleVi": "Tôi có một con chó."
     },
     {
       "id": "v17_2",
-      "word": "Word_17_2",
-      "phonetic": "/wɜːrd/",
-      "meaning": "Từ vựng mẫu 2",
-      "example": "This is an example for Word_17_2.",
-      "exampleVi": "Đây là ví dụ cho từ mẫu 2."
+      "word": "Cat",
+      "phonetic": "/kæt/",
+      "meaning": "Con mèo",
+      "example": "The cat is sleeping.",
+      "exampleVi": "Con mèo đang ngủ."
     }
   ],
   "listening": [
     {
       "id": "l17_1",
-      "sentence": "I like studying English.",
-      "sentenceVi": "Tôi thích học tiếng Anh."
+      "sentence": "I saw a big dog yesterday.",
+      "sentenceVi": "Hôm qua tôi đã thấy một con chó lớn."
     },
     {
       "id": "l17_2",
-      "sentence": "This is a good day.",
-      "sentenceVi": "Hôm nay là một ngày tốt."
+      "sentence": "She liked cats when she was young.",
+      "sentenceVi": "Cô ấy thích mèo khi còn nhỏ."
     }
   ],
   "speaking": [
     {
       "id": "s17_1",
-      "sentence": "How are you today?",
-      "sentenceVi": "Hôm nay bạn thế nào?"
+      "sentence": "Do you have any pets?",
+      "sentenceVi": "Bạn có nuôi thú cưng nào không?"
     }
   ],
   "writing": [
@@ -75,20 +75,20 @@
       "id": "w17_1",
       "type": "fill-blank",
       "instruction": "Điền vào chỗ trống",
-      "question": "I like studying _____.",
-      "answer": "English",
-      "hint": "Ngôn ngữ bạn đang học"
+      "question": "The _____ is sleeping.",
+      "answer": "cat",
+      "hint": "con mèo"
     }
   ],
   "quizzes": [
     {
       "id": "q17_1",
-      "question": "Từ vựng 'Word_17_1' nghĩa là gì?",
+      "question": "'Dog' nghĩa là gì?",
       "options": [
-        "Từ vựng mẫu 1",
-        "Từ vựng mẫu 2",
-        "Từ vựng mẫu 3",
-        "Từ vựng mẫu 4"
+        "Con chó",
+        "Con mèo",
+        "Con chim",
+        "Con cá"
       ],
       "correct": 0
     }
@@ -96,13 +96,13 @@
   "conversation": [
     {
       "speaker": "A",
-      "text": "Hello, how are you?",
-      "textVi": "Xin chào, bạn khỏe không?"
+      "text": "Do you have a pet?",
+      "textVi": "Bạn có thú cưng không?"
     },
     {
       "speaker": "B",
-      "text": "I am fine, thank you.",
-      "textVi": "Tôi khỏe, cảm ơn bạn."
+      "text": "Yes, I have a dog.",
+      "textVi": "Có, tôi có một con chó."
     }
   ]
 }
